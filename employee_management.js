@@ -32,3 +32,17 @@ this.employees.push(employee)
 const engineering = new Department("Engineering");
 
 const marketing = new Department("Marketing");
+
+//Task 3
+
+class Manager extends Employee(){
+    constructor(name, position, salary, department,bonus){
+    super(name, position, salary, department)
+    this.bonus = bonus
+}
+getDetails(){
+    console.log(`${this.name} position is ${this.position} and their salary
+        is ${this.salary} with a bonus of ${this.bonus}`)
+}}
+
+         
